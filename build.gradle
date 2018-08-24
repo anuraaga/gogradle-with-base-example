@@ -1,0 +1,10 @@
+plugins {
+    id 'com.github.blindpirate.gogradle' version '0.10'
+}
+
+apply plugin: 'base'
+
+golang {
+  packagePath = 'github.io/anuraaga/gogradle-with-base-example'
+}
+
